@@ -64,8 +64,9 @@ public class LoginPage {
 	public void verifyErrorMsg()
 	{
 		cm.elementExist(errmsg, "Error message displayed");
+		System.out.println("Done");
 	}
 	
-	
+
 
 }
